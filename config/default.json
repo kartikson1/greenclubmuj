@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://kartikson1:rgcstuffmehmeh22@rgc-muj.9bjml.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettokenforrgc"
+}
