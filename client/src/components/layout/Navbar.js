@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { logout } from '../../actions/auth';
+import '../../App.css';
 
 const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
@@ -11,7 +12,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to='/profiles'>Rotarians</Link>
       </li>
       <li>
-        <Link to='/posts'>Club announcements</Link>
+        <Link to='/posts'>Announcements</Link>
       </li>
       <li>
         <Link to='/about'>About</Link>
@@ -37,7 +38,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to='/profiles'>Rotarians</Link>
       </li>
       <li>
-        <Link to='/posts'>Club announcements</Link>
+        <Link to='/posts'>Announcements</Link>
       </li>
       <li>
         <Link to='/register'>Register</Link>
@@ -52,7 +53,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   );
 
   return (
-    <nav className='navbar bg-dark'>
+    <nav className='navbar bg-dark' style={{ marginBottom: '5px' }}>
       <h1>
         <Link to='/'>
           <i className='fa fa-home' aria-hidden='true' /> Rotaract Green Club

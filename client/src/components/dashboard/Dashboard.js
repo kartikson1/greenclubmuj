@@ -20,9 +20,24 @@ const Dashboard = ({
       <h1 className='large text-primary'>Dashboard</h1>
       <p className='lead'>
         <i className='fas fa-user' /> Welcome to the Rotaract Green Club,{' '}
-        {user && user.name}
+        <span style={{ fontSize: '30px' }}>{user && user.name}</span>
       </p>
-      <p> display profile stuff here </p>
+      <p>
+        <strong>Your bio:</strong> {profile && profile.bio}{' '}
+      </p>
+      <p>
+        <strong>Committee:</strong> {profile && profile.committee}{' '}
+      </p>
+      <p>
+        <strong>Your role with us:</strong> {profile && profile.role}{' '}
+      </p>
+      <p>
+        <strong>Hometown:</strong> {profile && profile.hometown}{' '}
+      </p>
+      <p>
+        Note: your social media links will be visible to others when they visit
+        your profile (if entered any)
+      </p>
       {profile !== null ? (
         <Fragment>
           <DashboardActions />

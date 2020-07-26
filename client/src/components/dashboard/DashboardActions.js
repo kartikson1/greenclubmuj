@@ -8,7 +8,7 @@ const DashboardActions = () => {
         <i className='fas fa-user-circle text-primary' /> Edit Profile
       </Link>
       <Link to='/about' className='btn btn-primary'>
-        <i className='fas fa-users text-primary' /> About RGC
+        <i className='fa fa-users text-primary' /> About RGC
       </Link>
     </div>
   );

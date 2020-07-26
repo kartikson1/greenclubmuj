@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css';
-
 const About = () => {
   return (
     <div>
@@ -21,7 +20,7 @@ const About = () => {
         style={{
           backgroundPosition: 'center',
           backgroundSize: 'cover',
-          backgroundImage: require('./img/rgcplantation.jpg'),
+          background: require('./img/rgcplantation.jpg'),
           minHeight: '75%',
         }}
       >

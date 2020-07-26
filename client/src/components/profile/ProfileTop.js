@@ -14,9 +14,8 @@ const ProfileTop = ({
     <div className='profile-top bg-primary p-2'>
       <img className='round-img my-1' src={avatar} alt='' />
       <h1 className='large'>{name}</h1>
-      <p className='lead'>
-        Committee: {committee} Role: {role}
-      </p>
+      <p className='lead'>Committee: {committee}</p>
+      <p className='lead'>Role: {role}</p>
       <p>{hometown && <span>{hometown}</span>}</p>
       <div className='icons my-1'>
         {social && social.twitter && (
