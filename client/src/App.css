@@ -333,7 +333,7 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url('./img/showcase.jpg') no-repeat center center/cover;
+  background: url('./img/rgccover1.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -574,4 +574,13 @@ button {
   .post button {
     padding: 0.3rem 0.4rem;
   }
+}
+
+/* ABOUT PAGE STYLES */
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url('./img/rgcplantation.jpg');
+  min-height: 75%;
 }
