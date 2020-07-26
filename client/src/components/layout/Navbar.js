@@ -12,7 +12,10 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to='/profiles'>Rotarians</Link>
       </li>
       <li>
-        <Link to='/posts'>Announcements</Link>
+        <Link to='/posts'>
+          <i class='fa fa-bullhorn' aria-hidden='true'></i>
+          <span className='hide-sm'>Announcements</span>
+        </Link>
       </li>
       <li>
         <Link to='/about'>About</Link>
@@ -38,7 +41,10 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to='/profiles'>Rotarians</Link>
       </li>
       <li>
-        <Link to='/posts'>Announcements</Link>
+        <Link to='/posts'>
+          <i class='fa fa-bullhorn' aria-hidden='true'></i>
+          <span className='hide-sm'> Announcements</span>
+        </Link>
       </li>
       <li>
         <Link to='/register'>Register</Link>
@@ -53,7 +59,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   );
 
   return (
-    <nav className='navbar bg-dark' style={{ marginBottom: '5px' }}>
+    <nav className='navbar bg-dark' style={{}}>
       <h1>
         <Link to='/'>
           <i className='fa fa-home' aria-hidden='true' /> Rotaract Green Club
