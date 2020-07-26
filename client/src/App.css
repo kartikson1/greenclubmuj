@@ -575,12 +575,3 @@ button {
     padding: 0.3rem 0.4rem;
   }
 }
-
-/* ABOUT PAGE STYLES */
-
-.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url('./img/rgcplantation.jpg');
-  min-height: 75%;
-}

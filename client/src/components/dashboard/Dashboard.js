@@ -22,10 +22,7 @@ const Dashboard = ({
         <i className='fas fa-user' /> Welcome to the Rotaract Green Club,{' '}
         {user && user.name}
       </p>
-      <p>
-        Display bio, role at club, etc here. Also, "ABOUT RGC" that leads to the
-        about page
-      </p>
+      <p> display profile stuff here </p>
       {profile !== null ? (
         <Fragment>
           <DashboardActions />

@@ -4,7 +4,7 @@ import './about.css';
 const About = () => {
   return (
     <div>
-      <link rel='stylesheet' href='./about.css' />
+      <link rel='stylesheet' href={require('./about.css')} />
       <link
         rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Inconsolata'
@@ -15,7 +15,7 @@ const About = () => {
         integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u'
         crossorigin='anonymous'
       ></link>
-      <header
+      <div
         className='bgimg w3-display-container w3-grayscale-min'
         id='home'
         style={{
@@ -50,7 +50,7 @@ const About = () => {
             Manipal University Jaipur
           </span>
         </div>
-      </header>
+      </div>
       <div className='w3-sand w3-grayscale w3-large'>
         <div className='w3-container' id='about'>
           <div className='w3-content' style={{ maxWidth: '700px' }}>

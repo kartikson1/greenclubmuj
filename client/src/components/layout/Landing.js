@@ -12,10 +12,15 @@ const Landing = ({ isAuthenticated }) => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <h1 className='x-large'>Rotaract Green Club, MUJ</h1>
           <p className='lead'>
             Welcome to the RGC website! Check out posts about club events from
-            members, sign up to become a member, have discussions, and more.
+            members, sign up on the club website, have discussions, and more.
           </p>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
@@ -28,6 +33,14 @@ const Landing = ({ isAuthenticated }) => {
               About RGC
             </Link>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <p>Developer: Kartik Soni</p>
+          <p>kartiksoni2209@gmail.com</p>
         </div>
       </div>
     </section>
