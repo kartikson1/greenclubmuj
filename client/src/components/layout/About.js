@@ -119,6 +119,7 @@ const About = () => {
             <p style={{ fontSize: '35px' }}>
               <strong>Club email:</strong> greenclubmuj@gmail.com
             </p>
+            <p>(Other contact info here)</p>
           </div>
         </div>
 

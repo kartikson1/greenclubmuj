@@ -7,7 +7,8 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Kartik Soni",
   "license": "ISC",
@@ -21,7 +22,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.25",
     "normalize-url": "^5.0.0",
-    "request": "^2.88.2"
+    "react-native-chatbot": "0.0.1-alpha.12",
+    "request": "^2.88.2",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
